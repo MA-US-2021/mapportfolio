@@ -24,7 +24,7 @@ The following image has made use of a 1900 historic map retrieved from the Harva
 
 The map shows administrative boundaries of the Indian city that I belong to, Mumbai, pre (1814) and post colonialism (1968) against the backdrop of a map drawn by the British during the period of colonialism (1900). Mumbai was previously a set of small islands but over the years (and primarily during the British regime), it saw rapid expansion and land reclamation as can be seen in the historic map and polygon layers represented here.
 
-[![](Images/Mumbai Historic Map.jpg)](https://ma-us-2021.github.io/mappingportfolio/Images/Mumbai Historic Map.jpg){target="_blank"}
+[![](Images/Mumbai Historic Map.jpg)](https://ma-us-2021.github.io/mapportfolio/Images/Mumbai Historic Map.jpg){target="_blank"}
 
 
 # SAN FRANCISCO: ACCESS TO TRANSIT
@@ -37,7 +37,7 @@ The following three maps display public transportation accessibility in the city
 The map below shows the number of transit stops that one can walk to within 10 minutes from any point in the map. It is apparent that the highest concentration of transit stops is in the north-eastern part of the city, with certain parts having access to more than 60 transit stops within a short walking distance. 
 
 
-[![](Images/Transit stops within 10 minute walk.png)](https://ma-us-2021.github.io/mappingportfolio/Images/Transit stops within 10 minute walk.png){target="_blank"}
+[![](Images/Transit stops within 10 minute walk.png)](https://ma-us-2021.github.io/mapportfolio/Images/Transit stops within 10 minute walk.png){target="_blank"}
 
 ## Accessibility Score
 * Skill: Calculating and displaying accessibility, based on travel time
@@ -47,7 +47,7 @@ The map below shows the number of transit stops that one can walk to within 10 m
 
 This map leverages information from the previous one to create and display an accessibility score for different areas in the city on a raster map. The score is calculated based on a distance-decay function of the walking time to the nearest transit stop. It is an abstract and normalized means of communicating ease of access on a scale of 0 to 60.
 
-[![](Images/Accessibility Score (Raster).png)](https://ma-us-2021.github.io/mappingportfolio/Images/Accessibility Score (Raster).png){target="_blank"}
+[![](Images/Accessibility Score (Raster).png)](https://ma-us-2021.github.io/mapportfolio/Images/Accessibility Score (Raster).png){target="_blank"}
 
 ## Accessibility Score Polygons
 * Skill: Calculating and displaying accessibility, based on travel time
@@ -57,7 +57,7 @@ This map leverages information from the previous one to create and display an ac
 
 The following map continues to build on the previous one by merging adjacent grid cells that have the same value to create polygons. This helps us group larger areas within the city based on ease of accessibility, which is helpful when one is planning at cross-neighborhood scales. As we can see from the nuances of the grids, there aren't large parts of the city where adjacent areas have the exact same accessibility scores. 
 
-[![](Images/Accessibility Score (Polygons).png)](https://ma-us-2021.github.io/mappingportfolio/Images/Accessibility Score (Polygons).png){target="_blank"}
+[![](Images/Accessibility Score (Polygons).png)](https://ma-us-2021.github.io/mapportfolio/Images/Accessibility Score (Polygons).png){target="_blank"}
 
 
 # CHICAGO: SHOOTINGS AND POLICE STATIONS
@@ -70,7 +70,7 @@ The following two maps analyze issues of shootings and police stations in Chicag
 
 This map indicates the number of shootings in each Chicago neighborhood. A cursory glance at the map indicates a comparatively higher proportion of shootings along the central part of Chicago with lower numbers along the city borders.
 
-[![](Images/Shootings within Chicago Neighbourhoods.png)](https://ma-us-2021.github.io/mappingportfolio/Images/Shootings within Chicago Neighbourhoods.png){target="_blank"}
+[![](Images/Shootings within Chicago Neighbourhoods.png)](https://ma-us-2021.github.io/mapportfolio/Images/Shootings within Chicago Neighbourhoods.png){target="_blank"}
 
 ## Number of Neighborhoods with Police Stations
 * Skill: Displaying multiple vector layers on the same map
@@ -78,14 +78,14 @@ This map indicates the number of shootings in each Chicago neighborhood. A curso
 
 In this map, I attempt to investigate how many Chicago neighborhoods have police stations located in them. The code shows these neighborhoods in pink, and adds a summary of the total number of neighborhoods fulfilling this criteria. 
 
-[![](Images/Police precincts in Chicago Neighbourhoods.png)](https://ma-us-2021.github.io/mappingportfolio/Images/Police precincts in Chicago Neighbourhoods.png){target="_blank"}
+[![](Images/Police precincts in Chicago Neighbourhoods.png)](https://ma-us-2021.github.io/mapportfolio/Images/Police precincts in Chicago Neighbourhoods.png){target="_blank"}
 
 ## Average Distance of Shootings from Police Stations
 * Skill: Calculating and displaying relationships among point and polygon layers based on distance
 
 Here, I map the average distance of a police station from a shooting in Chicago. Contrary to a potentially popular belief that shootings might be located in the absence of police presence, we find that many shootings occur within 160 meters of a Chicago police station.  
 
-[![](Images/Police station - shooting distance.png)](https://ma-us-2021.github.io/mappingportfolio/Link/Shooting-PS distance.pdf){target="_blank"}
+[![](Images/Police station - shooting distance.png)](https://ma-us-2021.github.io/mapportfolio/Link/Shooting-PS distance.pdf){target="_blank"}
 
 
 # MAUI: MULTIRACIAL POPULATION
@@ -97,7 +97,7 @@ This map shows the racial diversity of Maui citizens across different Census blo
 
 On clicking the image below, you would be directed to an interactive map in a new tab. The map displays the percentage of population identifying with more than one race in different areas of Maui, as reported in the United States Decennial Census of 2010 . Hovering over the specific polygons will provide the reader with information about the Census block, while clicking it will allow them to read the total population and percentage of multiracial population in that block. 
 
-[![](Images/Hawaii Multiracial Population.png)](https://ma-us-2021.github.io/mappingportfolio/Link/Final_Interactive Map_Manasa Acharya){target="_blank"}
+[![](Images/Hawaii Multiracial Population.png)](https://ma-us-2021.github.io/mapportfolio/Link/Final_Interactive Map_Manasa Acharya){target="_blank"}
 
 
 
